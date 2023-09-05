@@ -7,7 +7,7 @@ const Courses = () => {
       className="section-container courses-hero-img height-100-vh"
       id="courses"
     >
-      <h1>Kursy</h1>
+      <h1 className="title-white">Kursy</h1>
       <div className="section-content course-container">
         <Course
           title="C i same plusy"
