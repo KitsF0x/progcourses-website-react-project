@@ -13,7 +13,7 @@ const Navigation = () => {
       <a href="#courses" className="nav-item">
         Kursy
       </a>
-      <a href="#" className="nav-item">
+      <a href="#statute" className="nav-item">
         Regulamin
       </a>
       <a href="#" className="nav-item">
