@@ -81,3 +81,32 @@ header.hero-img {
     height: 100%;
   }
 }
+
+// Section
+
+.section-container {
+  padding: 10px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    padding: 50px 0 10px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  .section-content {
+    text-align: center;
+    font-size: 24px;
+    width: 70%;
+  }
+
+  .little-text {
+    margin: 10px 0;
+    text-align: left;
+  }
+}
