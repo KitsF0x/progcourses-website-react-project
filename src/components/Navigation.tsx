@@ -7,10 +7,10 @@ const Navigation = () => {
       <a href="#" className="nav-item">
         Strona główna
       </a>
-      <a href="#" className="nav-item">
+      <a href="#about" className="nav-item">
         O nas
       </a>
-      <a href="#" className="nav-item">
+      <a href="#courses" className="nav-item">
         Kursy
       </a>
       <a href="#" className="nav-item">

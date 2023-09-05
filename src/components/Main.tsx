@@ -4,7 +4,7 @@ import Course from "./Course";
 const Main = () => {
   return (
     <>
-      <section className="section-container">
+      <section className="section-container" id="about">
         <h1>O nas</h1>
         <p className="section-content">
           Jesteśmy nową firmą, specjalizującą się w świadczeniu kursów
@@ -18,7 +18,10 @@ const Main = () => {
         <p className="little-text">*Dotyczy wybranych kursów.</p>
       </section>
       <hr />
-      <section className="section-container courses-hero-img height-100-vh">
+      <section
+        className="section-container courses-hero-img height-100-vh"
+        id="courses"
+      >
         <h1>Kursy</h1>
         <div className="section-content course-container">
           <Course
