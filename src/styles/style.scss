@@ -146,6 +146,13 @@ header.hero-img {
   text-align: left;
   padding: 10px;
   margin: 40px;
+
+  transition: background-color 0.2s, transform 0.2s;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1, 1.1);
+  }
+
   .course-title {
     font-weight: bold;
     font-size: 24px;
@@ -179,6 +186,7 @@ header.hero-img {
     font-size: 24px;
     cursor: pointer;
     transition: color 0.2s, background-color 0.2s;
+    border: 1px solid #fff;
 
     &:hover {
       background-color: #fff;
