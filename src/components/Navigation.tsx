@@ -4,8 +4,8 @@ import "../styles/style.scss";
 const Navigation = () => {
   return (
     <nav className="nav-container">
-      <a href="#" className="nav-item">
-        Strona główna
+      <a href="#" className="nav-item logo">
+        ProgCourses
       </a>
       <a href="#about" className="nav-item">
         O nas
