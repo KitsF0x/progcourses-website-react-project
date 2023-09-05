@@ -18,7 +18,7 @@ const Main = () => {
         <p className="little-text">*Dotyczy wybranych kursów.</p>
       </section>
       <hr />
-      <section className="section-container courses-hero-img">
+      <section className="section-container courses-hero-img height-100-vh">
         <h1>Kursy</h1>
         <div className="section-content course-container">
           <Course
